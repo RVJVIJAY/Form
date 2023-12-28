@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="formdata">
+            <h1>Registration form</h1>
+            <form action="" onsubmit="return validateForm()"id="forms">
+                <div class="input-data">
+                    <label>username</label>
+                    <input type="text" placeholder="enter your name" name="username"/>
+                </div>
+                <div class="input-data">
+                    <label>Email</label>
+                    <input type="email" placeholder="enter your email" name="email"/>
+                </div>
+                <div class="input-data">
+                    <label>password</label>
+                    <input type="password" placeholder="enter your password" name="password"/>
+                </div>
+                <div class="input-data">
+                    <label>confirm password</label>
+                    <input type="password" placeholder="enter your confirm password" name="cpassword"/>
+                </div>
+                <div class="btn">
+                    <button>Register</button>
+                </div>
+                <div class="link">
+                    <a href="#">Forgetpassword</a>
+                    <a href="#">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
